@@ -83,7 +83,7 @@ def test(model, test_loader, criterion, device):
         total_correct = 0
         total_samples = 0
         
-        for i, data in enumerate(test_loader):
+        for i, data in enumerate(test_loader):1单位
             inputs, targets = data
             inputs = inputs.to(device)
             targets = targets.to(device)
